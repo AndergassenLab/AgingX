@@ -6,9 +6,9 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 ## 1. IGV browser links
 
 | Organ      |       |      |      | 
-| ------------- | ------------- | ------------- |      | 
+| ------------- | ------------- | ------------- | ------------- |
 |[Brain](https://tinyurl.com/dx76b8fp) | [Kidney](https://tinyurl.com/yccv8vy3) |[Lung](https://tinyurl.com/2pcpat2s) |[Spleen](https://tinyurl.com/3mrm88jy)|
-|[Heart](https://tinyurl.com/3ntdccmr)|[Liver](https://tinyurl.com/2nbrzkbp) |[Muscle](https://tinyurl.com/3w94eeu5)|      |
+|[Heart](https://tinyurl.com/3ntdccmr)|[Liver](https://tinyurl.com/2nbrzkbp) |[Muscle](https://tinyurl.com/3w94eeu5)|------------- |
 
 
 ## 2. Example: Kidney
