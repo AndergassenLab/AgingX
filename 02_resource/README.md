@@ -13,7 +13,7 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 
 ## 2. Example: Kidney
 
-<img width="1927" alt="Image" src="https://github.com/user-attachments/assets/6ef6f33b-ef97-473f-9aec-bd1f9ee1382c" />
+<img width="1922" alt="Image" src="https://github.com/user-attachments/assets/1ef9e341-e1ae-47ba-acc4-c24125c351a5" /><br/>
 
 
 | Track      | Description   |
@@ -23,7 +23,7 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 | Embryonic_Kidney_fwd_allele-specific | Forward strand RNA-seq track obtained of a representative example replicate. Allele-specific reads are shown for the maternal BL6 allele (active X chromosome) in black and the paternal CAST allele (inactive X chromosome) in orange |
 | Embryonic_Kidney_rev_allele-specific | Reverse strand RNA-seq track obtained of a representative example replicate. Allele-specific reads are shown for the maternal BL6 allele (active X chromosome) in black and the paternal CAST allele (inactive X chromosome) in orange |
 | Embryonic_Kidney_AllelomePRO.bed | Alleleome.PRO2 bed output summarizing three replicates and naming the locus, the min. total number of SNP-overlapping reads within the gene body and the median allelic ratio. The color denotes the allelic bias (for X-linked genes: dark red: maternal (AR > 0.9), green: biallelic (0.9 >= AR > 0.15), blue: paternal (AR <= 0.15); for autosomal genes: dark red: maternal (AR >= 0.85), light red: towards maternal (0.85 > AR >= 0.65), green: biallelic (0.65 > AR > 0.35), light blue: towards paternal (0.35 >= AR > 0.15), blue: paternal (AR <= 0.15)) |
-| Sequencing tracks are displayed for the following time points: Embryonic (E14.5), Young (4 weeks of age), Adult (9 weeks of age), Aged (1.5 years of age) |
+Sequencing tracks are displayed for the following time points: Embryonic (E14.5), Young (4 weeks of age), Adult (9 weeks of age), Aged (1.5 years of age)
 
 
 [^1]:*James T. Robinson, Helga Thorvaldsdóttir, Wendy Winckler, Mitchell Guttman, Eric S. Lander, Gad Getz, Jill P. Mesirov. Integrative Genomics Viewer. Nature Biotechnology 29, 24–26 (2011). A public access version is also available: PMC3346182.*.
