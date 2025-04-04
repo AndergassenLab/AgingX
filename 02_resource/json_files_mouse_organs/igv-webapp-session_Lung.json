@@ -1,0 +1,302 @@
+{
+	"version": "3.2.5",
+	"showSampleNames": false,
+	"reference": {
+		"id": "mm10",
+		"name": "Mouse (GRCm38/mm10)",
+		"fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
+		"indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
+		"cytobandURL": "https://s3.amazonaws.com/igv.broadinstitute.org/annotations/mm10/cytoBandIdeo.txt.gz",
+		"twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
+		"chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes",
+		"order": 1000000,
+		"chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
+	},
+	"locus": "chrX:103,314,864-103,638,277",
+	"roi": [],
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"name": "Refseq Curated",
+			"format": "refgene",
+			"url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz",
+			"indexed": false,
+			"order": 1000000,
+			"type": "annotation",
+			"height": 70,
+			"color": "rgb(0, 0, 0)"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/f9clwzxcclpnvmk3opmc3/SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed?rlkey=e4mjjlqevmd4cjonndj2pr928&dl=0",
+			"filename": "SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed",
+			"name": "SNPfile_C57BL_6NJxCAST_EiJ.bed",
+			"order": 1000017,
+			"format": "bed",
+			"type": "annotation",
+			"height": 30
+		},
+		{
+			"name": "Embryonic_Lung_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000030,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/wemvb5i4fzwf75ur4zksj/Lu_E14-5_RNA_XistBxC_-_XX_1_fwd.bw?rlkey=1hwz48xspr1ann4yvghsifzy1&dl=0",
+					"filename": "Lu_E14-5_RNA_XistBxC_-_XX_1_fwd.bw",
+					"name": "Lu_E14-5_RNA_XistBxC_-_XX_1_fwd.bw",
+					"order": 20,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -708.6374999999999,
+					"max": 10.174603174603174
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/ft1tjz70foo9xyhmnff78/Lu_E14-5_RNA_XistBxC_-_XX_1_rev.bw?rlkey=nmr4ywkj70a2whuefic6khjp3&dl=0",
+					"filename": "Lu_E14-5_RNA_XistBxC_-_XX_1_rev.bw",
+					"name": "Lu_E14-5_RNA_XistBxC_-_XX_1_rev.bw",
+					"order": 21,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -708.6374999999999,
+					"max": 10.174603174603174
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/vadat5eogffp7ufzgzb7t/Lu_E14-5_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw?rlkey=iqx7ba088g4st65fh7wee9v8b&dl=0",
+			"filename": "Lu_E14-5_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Embryonic_Lung_unstranded_maternal_BL6_Xa",
+			"order": 1000043,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 543.595458984375,
+			"autoscaleGroup": "auto-scale-group-xcxp"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/vp76u6ycg235f3367zdwq/Lu_E14-5_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw?rlkey=kg78ix2m3ej9m0m9aikq3y3oa&dl=0",
+			"filename": "Lu_E14-5_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Embryonic_Lung_unstranded_paternal_CAST_Xi",
+			"order": 1000056,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 543.595458984375,
+			"autoscaleGroup": "auto-scale-group-xcxp"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/4n6h5c7ld49q82n894ho0/Lu_E14.5_XX_AllelomePRO.bed?rlkey=cf4ntu9tdw3nyp7gfjtzdlyt3&dl=0",
+			"filename": "Lu_E14.5_XX_AllelomePRO.bed",
+			"name": "Embryonic_Lung_AllelomePRO.bed",
+			"order": 1000069,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Young_Lung_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000070,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/v17xi9z1fkjwhgwljs8lh/Lu_4w_RNA_XistxC_-_XX_1_fwd.bw?rlkey=k8x7b2vdf1gn15hqfahe024tf&dl=0",
+					"filename": "Lu_4w_RNA_XistxC_-_XX_1_fwd.bw",
+					"name": "Lu_4w_RNA_XistxC_-_XX_1_fwd.bw",
+					"order": 5,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -199.95416666666665,
+					"max": 10.68125
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/t5znsqcg58ndygvu0dw05/Lu_4w_RNA_XistxC_-_XX_1_rev.bw?rlkey=go3fplpkf72oj7apjpoxn2gre&dl=0",
+					"filename": "Lu_4w_RNA_XistxC_-_XX_1_rev.bw",
+					"name": "Lu_4w_RNA_XistxC_-_XX_1_rev.bw",
+					"order": 6,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -199.95416666666665,
+					"max": 10.68125
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/rburt5zhn3m8l9heylr8h/Lu_4w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw?rlkey=solpwzv4epapugamyzkap60ga&dl=0",
+			"filename": "Lu_4w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Young_Lung_unstranded_maternal_BL6_Xa",
+			"order": 1000071,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 64.69065862522893,
+			"autoscaleGroup": "auto-scale-group-e8on"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/3cytu1lowsm3v67sh4blj/Lu_4w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw?rlkey=ch2ohyczbqk724ceiv8x2ehvj&dl=0",
+			"filename": "Lu_4w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Young_Lung_unstranded_paternal_CAST_Xi",
+			"order": 1000072,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 64.69065862522893,
+			"autoscaleGroup": "auto-scale-group-e8on"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/r1wpy5p0liqxrzc01cnqq/Lu_4w_XX_AllelomePRO.bed?rlkey=hkp7qsgzjegj837d7yvajb8ub&dl=0",
+			"filename": "Lu_4w_XX_AllelomePRO.bed",
+			"name": "Young_Lung_AllelomePRO.bed",
+			"order": 1000073,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Adult_Lung_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000074,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/k535zkh4vrar3kvw58jns/Lu_9w_RNA_XistxC_-_XX_1_fwd.bw?rlkey=mkj4ed9bmd8uhyjgjaxv1a29o&dl=0",
+					"filename": "Lu_9w_RNA_XistxC_-_XX_1_fwd.bw",
+					"name": "Lu_9w_RNA_XistxC_-_XX_1_fwd.bw",
+					"order": 10,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -244.35,
+					"max": 12.872807017543858
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/zjufs7xtnwu4tyy7xxkrv/Lu_9w_RNA_XistxC_-_XX_1_rev.bw?rlkey=rhb4w2nkexbrnoqle3crgv95o&dl=0",
+					"filename": "Lu_9w_RNA_XistxC_-_XX_1_rev.bw",
+					"name": "Lu_9w_RNA_XistxC_-_XX_1_rev.bw",
+					"order": 11,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -244.35,
+					"max": 12.872807017543858
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/fgfg2i3xlx8gt5cgyk1gr/Lu_9w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw?rlkey=80b2z4rolze43075ypvijxlri&dl=0",
+			"filename": "Lu_9w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Adult_Lung_unstranded_maternal_BL6_Xa",
+			"order": 1000075,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 86.80416666666667,
+			"autoscaleGroup": "auto-scale-group-qbvh"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/xkbyt103k5srnr7lcdivx/Lu_9w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw?rlkey=8t7k55ctv93itaumoqn5h7zwk&dl=0",
+			"filename": "Lu_9w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Adult_Lung_unstranded_paternal_CAST_Xi",
+			"order": 1000076,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 86.80416666666667,
+			"autoscaleGroup": "auto-scale-group-qbvh"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/h46w8zcd5yjk8z4uf0e2x/Lu_9w_XX_AllelomePRO.bed?rlkey=yh36cahwv0kvwyptk9t5xyct9&dl=0",
+			"filename": "Lu_9w_XX_AllelomePRO.bed",
+			"name": "Adult_Lung_AllelomePRO.bed",
+			"order": 1000077,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Aged_Lung_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000078,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/ah8onrmbdjihaazi344bw/Lu_78w_RNA_XistBxC_-_XX_1_fwd.bw?rlkey=y91qk38mvof2wf2ofb84albx9&dl=0",
+					"filename": "Lu_78w_RNA_XistBxC_-_XX_1_fwd.bw",
+					"name": "Lu_78w_RNA_XistBxC_-_XX_1_fwd.bw",
+					"order": 15,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -166.19583333333335,
+					"max": 7.0125
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/5jwxk4s9qouyc3mh1mkaa/Lu_78w_RNA_XistBxC_-_XX_1_rev.bw?rlkey=xqiw2rvrpg0m6erharepxt5bx&dl=0",
+					"filename": "Lu_78w_RNA_XistBxC_-_XX_1_rev.bw",
+					"name": "Lu_78w_RNA_XistBxC_-_XX_1_rev.bw",
+					"order": 16,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -166.19583333333335,
+					"max": 7.0125
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/ly4h5kuzvpwydpp0jexcx/Lu_78w_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw?rlkey=a8fbvr4e1j1r7weevw63kesz9&dl=0",
+			"filename": "Lu_78w_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Aged_Lung_unstranded_maternal_BL6_Xa",
+			"order": 1000079,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 73.3459762631705,
+			"autoscaleGroup": "auto-scale-group-in72"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/c7myi6uzidaelbcgx8ouu/Lu_78w_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw?rlkey=acxpngeoguaxs4cxvhvti9kuw&dl=0",
+			"filename": "Lu_78w_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Aged_Lung_unstranded_paternal_CAST_Xi",
+			"order": 1000080,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 73.3459762631705,
+			"autoscaleGroup": "auto-scale-group-in72"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/87bs73kbc35rff58yahxd/Lu_78w_XX_AllelomePRO.bed?rlkey=tu13tea3ysqp4e06o25ffh15t&dl=0",
+			"filename": "Lu_78w_XX_AllelomePRO.bed",
+			"name": "Aged_Lung_AllelomePRO.bed",
+			"order": 1000081,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		}
+	]
+}

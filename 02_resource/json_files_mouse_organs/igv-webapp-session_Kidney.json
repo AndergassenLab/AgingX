@@ -1,0 +1,302 @@
+{
+	"version": "3.2.5",
+	"showSampleNames": false,
+	"reference": {
+		"id": "mm10",
+		"name": "Mouse (GRCm38/mm10)",
+		"fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
+		"indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
+		"cytobandURL": "https://s3.amazonaws.com/igv.broadinstitute.org/annotations/mm10/cytoBandIdeo.txt.gz",
+		"twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
+		"chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes",
+		"order": 1000000,
+		"chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
+	},
+	"locus": "chrX:103,314,864-103,638,277",
+	"roi": [],
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"name": "Refseq Curated",
+			"format": "refgene",
+			"url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz",
+			"indexed": false,
+			"order": 1000000,
+			"type": "annotation",
+			"height": 70,
+			"color": "rgb(0, 0, 0)"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/f9clwzxcclpnvmk3opmc3/SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed?rlkey=e4mjjlqevmd4cjonndj2pr928&dl=0",
+			"filename": "SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed",
+			"name": "SNPfile_C57BL_6NJxCAST_EiJ.bed",
+			"order": 1000017,
+			"format": "bed",
+			"type": "annotation",
+			"height": 30
+		},
+		{
+			"name": "Embryonic_Kidney_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000030,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/5f5cfpf9kusd3r6ccwtbv/Ki_E14-5_RNA_XistBxC_-_XX_1_fwd.bw?rlkey=35zefs4jevcsw8xlrouf1hzyl&dl=0",
+					"filename": "Ki_E14-5_RNA_XistBxC_-_XX_1_fwd.bw",
+					"name": "Ki_E14-5_RNA_XistBxC_-_XX_1_fwd.bw",
+					"order": 20,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -807.6833333333334,
+					"max": 12.946428571428571
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/hx1f4xeqv1k2yph1zutsy/Ki_E14-5_RNA_XistBxC_-_XX_1_rev.bw?rlkey=3bpjhfn6rk9it00ih9qx556ii&dl=0",
+					"filename": "Ki_E14-5_RNA_XistBxC_-_XX_1_rev.bw",
+					"name": "Ki_E14-5_RNA_XistBxC_-_XX_1_rev.bw",
+					"order": 21,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -807.6833333333334,
+					"max": 12.946428571428571
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/agsq13m63999oboe5uk6u/Ki_E14-5_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw?rlkey=1mxreh0at60g9itzbnjptewa0&dl=0",
+			"filename": "Ki_E14-5_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Embryonic_Kidney_unstranded_maternal_BL6_Xa",
+			"order": 1000043,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 665.1306292087542,
+			"autoscaleGroup": "auto-scale-group-9dcy"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/lgkuthav5i4xjcki8q7x6/Ki_E14-5_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw?rlkey=afsrg46tztcldmotjspp9bezg&dl=0",
+			"filename": "Ki_E14-5_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Embryonic_Kidney_unstranded_paternal_CAST_Xi",
+			"order": 1000056,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 665.1306292087542,
+			"autoscaleGroup": "auto-scale-group-9dcy"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/9y50s5t1i6yt1utks9yd3/Ki_E14.5_XX_AllelomePRO.bed?rlkey=s68wgt6mcrh2s6p0n1w1y8bam&dl=0",
+			"filename": "Ki_E14.5_XX_AllelomePRO.bed",
+			"name": "Embryonic_Kidney_AllelomePRO.bed",
+			"order": 1000069,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Young_Kidney_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000070,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/7y54wo44mub9wn4st6i85/Ki_4w_RNA_XistxC_-_XX_1_fwd.bw?rlkey=8dnscfg91xiyerabo43tsl163&dl=0",
+					"filename": "Ki_4w_RNA_XistxC_-_XX_1_fwd.bw",
+					"name": "Ki_4w_RNA_XistxC_-_XX_1_fwd.bw",
+					"order": 5,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -110.14999999999999,
+					"max": 6.70735580535631
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/i23gsfinnyac87ad4gs3o/Ki_4w_RNA_XistxC_-_XX_1_rev.bw?rlkey=1m14hee3nl4xn92y3ukz8toss&dl=0",
+					"filename": "Ki_4w_RNA_XistxC_-_XX_1_rev.bw",
+					"name": "Ki_4w_RNA_XistxC_-_XX_1_rev.bw",
+					"order": 6,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -110.14999999999999,
+					"max": 6.70735580535631
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/76fu5zsutqxw8cu7c0d68/Ki_4w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw?rlkey=rz6zhbu7y836gzu1lbayy7q3w&dl=0",
+			"filename": "Ki_4w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Young_Kidney_unstranded_maternal_BL6_Xa",
+			"order": 1000071,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 45.8084247295673,
+			"autoscaleGroup": "auto-scale-group-lyyh"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/21q2x4e7470lddcloguf0/Ki_4w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw?rlkey=7apagvbv734ghsi7204nu5nzm&dl=0",
+			"filename": "Ki_4w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Young_Kidney_unstranded_paternal_CAST_Xi",
+			"order": 1000072,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 45.8084247295673,
+			"autoscaleGroup": "auto-scale-group-lyyh"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/4zy46q3g5oo4i5kwjhs3p/Ki_4w_XX_AllelomePRO.bed?rlkey=9bmzve1hjtrmizvvcrna7u0z1&dl=0",
+			"filename": "Ki_4w_XX_AllelomePRO.bed",
+			"name": "Young_Kidney_AllelomePRO.bed",
+			"order": 1000073,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Adult_Kidney_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000074,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/i8cvfryed3oxtbo4kgo3b/Ki_9w_RNA_XistxC_-_XX_1_fwd.bw?rlkey=07df01570fxahcxy1tsc1l04z&dl=0",
+					"filename": "Ki_9w_RNA_XistxC_-_XX_1_fwd.bw",
+					"name": "Ki_9w_RNA_XistxC_-_XX_1_fwd.bw",
+					"order": 10,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -175.65833333333333,
+					"max": 8.451971457423276
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/w634yv130q6vcly4jl3b2/Ki_9w_RNA_XistxC_-_XX_1_rev.bw?rlkey=uqoo5x6u0lp4ekxvxzbrqlueg&dl=0",
+					"filename": "Ki_9w_RNA_XistxC_-_XX_1_rev.bw",
+					"name": "Ki_9w_RNA_XistxC_-_XX_1_rev.bw",
+					"order": 11,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -175.65833333333333,
+					"max": 8.451971457423276
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/qoka7p07d7092n1x1n3te/Ki_9w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw?rlkey=114w4tkcq0y6f1t3lei83pssy&dl=0",
+			"filename": "Ki_9w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Adult_Kidney_unstranded_maternal_BL6_Xa",
+			"order": 1000075,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 77.86080586080585,
+			"autoscaleGroup": "auto-scale-group-enz1"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/hkb45yjhz3cpmxbkeqhih/Ki_9w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw?rlkey=a0yl61yn3iwt117z4t5leu65i&dl=0",
+			"filename": "Ki_9w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Adult_Kidney_unstranded_paternal_CAST_Xi",
+			"order": 1000076,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 77.86080586080585,
+			"autoscaleGroup": "auto-scale-group-enz1"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/fepv9gdtwmce3ifvvhtrn/Ki_9w_XX_AllelomePRO.bed?rlkey=g5ba6ykc2y48ajj4zsaccx49p&dl=0",
+			"filename": "Ki_9w_XX_AllelomePRO.bed",
+			"name": "Adult_Kidney_AllelomePRO.bed",
+			"order": 1000077,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Aged_Kidney_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000078,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/i5pbvryqgeon5gsk5wdcr/Ki_78w_RNA_XistBxC_-_XX_1_fwd.bw?rlkey=079gpu4vdj826j0ibvdjgne48&dl=0",
+					"filename": "Ki_78w_RNA_XistBxC_-_XX_1_fwd.bw",
+					"name": "Ki_78w_RNA_XistBxC_-_XX_1_fwd.bw",
+					"order": 15,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -170.71666666666667,
+					"max": 10.380555470784506
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/3bo4wy3zlo9g43sjshaz5/Ki_78w_RNA_XistBxC_-_XX_1_rev.bw?rlkey=36iwrtuvi0vb2gfty0hq5poqs&dl=0",
+					"filename": "Ki_78w_RNA_XistBxC_-_XX_1_rev.bw",
+					"name": "Ki_78w_RNA_XistBxC_-_XX_1_rev.bw",
+					"order": 16,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -170.71666666666667,
+					"max": 10.380555470784506
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/rtikfiouya1y1mrpdvvxa/Ki_78w_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw?rlkey=5jda9x9t3nz24aike3vofm9ct&dl=0",
+			"filename": "Ki_78w_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Aged_Kidney_unstranded_maternal_BL6_Xa",
+			"order": 1000079,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 103.67440759567987,
+			"autoscaleGroup": "auto-scale-group-v6qv"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/6whzb0qf9i5x92r796rev/Ki_78w_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw?rlkey=y6l6ujpcvoqbx21ledds238ox&dl=0",
+			"filename": "Ki_78w_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Aged_Kidney_unstranded_paternal_CAST_Xi",
+			"order": 1000080,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 103.67440759567987,
+			"autoscaleGroup": "auto-scale-group-v6qv"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/2iqjzkw06begfpemxe6rj/Ki_78w_XX_AllelomePRO.bed?rlkey=aw6ggrz87qjf4an6dwbjcr0ig&dl=0",
+			"filename": "Ki_78w_XX_AllelomePRO.bed",
+			"name": "Aged_Kidney_AllelomePRO.bed",
+			"order": 1000081,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		}
+	]
+}

@@ -1,0 +1,237 @@
+{
+	"version": "3.2.5",
+	"showSampleNames": false,
+	"reference": {
+		"id": "mm10",
+		"name": "Mouse (GRCm38/mm10)",
+		"fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
+		"indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
+		"cytobandURL": "https://s3.amazonaws.com/igv.broadinstitute.org/annotations/mm10/cytoBandIdeo.txt.gz",
+		"twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
+		"chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes",
+		"order": 1000000,
+		"chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
+	},
+	"locus": "chrX:103,314,864-103,638,277",
+	"roi": [],
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"name": "Refseq Curated",
+			"format": "refgene",
+			"url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz",
+			"indexed": false,
+			"order": 1000000,
+			"type": "annotation",
+			"height": 70,
+			"color": "rgb(0, 0, 0)"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/f9clwzxcclpnvmk3opmc3/SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed?rlkey=e4mjjlqevmd4cjonndj2pr928&dl=0",
+			"filename": "SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed",
+			"name": "SNPfile_C57BL_6NJxCAST_EiJ.bed",
+			"order": 1000002,
+			"format": "bed",
+			"type": "annotation",
+			"height": 30
+		},
+		{
+			"name": "Young_Muscle_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000004,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/gzrbn914ed23kkt7wtci0/Mu_4w_RNA_XistxC_-_XX_1_fwd.bw?rlkey=8l7rbqyl5ukr9162d1kilbeht&dl=0",
+					"filename": "Mu_4w_RNA_XistxC_-_XX_1_fwd.bw",
+					"name": "Mu_4w_RNA_XistxC_-_XX_1_fwd.bw",
+					"order": 1000004,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -53.275,
+					"max": 7.1125
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/y27s9izxfrbqqzk2mwqlw/Mu_4w_RNA_XistxC_-_XX_1_rev.bw?rlkey=o6jimwsobqhoxnj439vwfrgf6&dl=0",
+					"filename": "Mu_4w_RNA_XistxC_-_XX_1_rev.bw",
+					"name": "Mu_4w_RNA_XistxC_-_XX_1_rev.bw",
+					"order": 1000005,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -53.275,
+					"max": 7.1125
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/ku9gmug79ket5tqtyytsk/Mu_4w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw?rlkey=8jmpkofi9isrxptrefffox5nv&dl=0",
+			"filename": "Mu_4w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Young_Muscle_unstranded_maternal_BL6_Xa",
+			"order": 1000006,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 18.245833333333334,
+			"autoscaleGroup": "auto-scale-group-bpb6"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/lw0ai2o9zpfype5n05hyp/Mu_4w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw?rlkey=74qaqrccb3t8fodb9h0mk31nq&dl=0",
+			"filename": "Mu_4w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Young_Muscle_unstranded_paternal_CAST_Xi",
+			"order": 1000007,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 18.245833333333334,
+			"autoscaleGroup": "auto-scale-group-bpb6"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/1iffi89s3kmme0cfabvn6/Mu_4w_XX_AllelomePRO.bed?rlkey=brn0gqmiw36ylvd3f20ssyxv2&dl=0",
+			"filename": "Mu_4w_XX_AllelomePRO.bed",
+			"name": "Young_Muscle_AllelomePRO.bed",
+			"order": 1000008,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Adult_Muscle_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000009,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/tjvk14v7ew585nic246dh/Mu_9w_RNA_XistxC_-_XX_1_fwd.bw?rlkey=3qrl6m6lcc21oj0uz919lbb46&dl=0",
+					"filename": "Mu_9w_RNA_XistxC_-_XX_1_fwd.bw",
+					"name": "Mu_9w_RNA_XistxC_-_XX_1_fwd.bw",
+					"order": 1000009,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -66.02916666666667,
+					"max": 7.46206017409299
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/vdxl8bvmrfytl9dazqxt1/Mu_9w_RNA_XistxC_-_XX_1_rev.bw?rlkey=pl5ydcgw4gfdqck0o08m5d5qp&dl=0",
+					"filename": "Mu_9w_RNA_XistxC_-_XX_1_rev.bw",
+					"name": "Mu_9w_RNA_XistxC_-_XX_1_rev.bw",
+					"order": 1000010,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -66.02916666666667,
+					"max": 7.46206017409299
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/6g2ey9lmx46t5pxltupkf/Mu_9w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw?rlkey=5boqkdy7t9pbcifqjuckgwdm0&dl=0",
+			"filename": "Mu_9w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Adult_Muscle_unstranded_maternal_BL6_Xa",
+			"order": 1000011,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 37.569191261574076,
+			"autoscaleGroup": "auto-scale-group-jk5j"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/sflre5sy86ubaqvc98ik0/Mu_9w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw?rlkey=5oyiwobyy24riufwlukgikv2h&dl=0",
+			"filename": "Mu_9w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Adult_Muscle_unstranded_paternal_CAST_Xi",
+			"order": 1000012,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 37.569191261574076,
+			"autoscaleGroup": "auto-scale-group-jk5j"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/qkd8542ykkgr0nrp59vvl/Mu_9w_XX_AllelomePRO.bed?rlkey=l40ku5w8g7meovtawomz6ax3p&dl=0",
+			"filename": "Mu_9w_XX_AllelomePRO.bed",
+			"name": "Adult_Muscle_AllelomePRO.bed",
+			"order": 1000013,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Aged_Muscle_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000014,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/tt8qmpyxtezrme33dszi1/Mu_78w_RNA_XistBxC_-_XX_1_fwd.bw?rlkey=gjey6sl8puf87yrxkckaqd0xk&dl=0",
+					"filename": "Mu_78w_RNA_XistBxC_-_XX_1_fwd.bw",
+					"name": "Mu_78w_RNA_XistBxC_-_XX_1_fwd.bw",
+					"order": 1000014,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -82.84583333333333,
+					"max": 8.20625
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/btcek561rluu606qfjery/Mu_78w_RNA_XistBxC_-_XX_1_rev.bw?rlkey=4esscuhfidbn8dsmggc72bsu4&dl=0",
+					"filename": "Mu_78w_RNA_XistBxC_-_XX_1_rev.bw",
+					"name": "Mu_78w_RNA_XistBxC_-_XX_1_rev.bw",
+					"order": 1000015,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -82.84583333333333,
+					"max": 8.20625
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/lro3zwsqbxrqvqybdtc7s/Mu_78w_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw?rlkey=z85pf6unkwrl7p28x6mi4vz15&dl=0",
+			"filename": "Mu_78w_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Aged_Muscle_unstranded_maternal_BL6_Xa",
+			"order": 1000016,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 69.65416666666665,
+			"autoscaleGroup": "auto-scale-group-45vm"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/p524qwvgvnr3ujmvfcz3s/Mu_78w_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw?rlkey=ypwm6xtsita9451q4x0w5p8u3&dl=0",
+			"filename": "Mu_78w_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Aged_Muscle_unstranded_paternal_CAST_Xi",
+			"order": 1000017,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 69.65416666666665,
+			"autoscaleGroup": "auto-scale-group-45vm"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/b0jbfzqjw4vkyb8heo10t/Mu_78w_XX_AllelomePRO.bed?rlkey=n0gaeylvnhhoj1dm9tn8aryy1&dl=0",
+			"filename": "Mu_78w_XX_AllelomePRO.bed",
+			"name": "Aged_Muscle_AllelomePRO.bed",
+			"order": 1000018,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		}
+	]
+}

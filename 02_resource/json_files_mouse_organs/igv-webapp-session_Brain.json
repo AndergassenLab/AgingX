@@ -1,0 +1,302 @@
+{
+	"version": "3.2.5",
+	"showSampleNames": false,
+	"reference": {
+		"id": "mm10",
+		"name": "Mouse (GRCm38/mm10)",
+		"fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
+		"indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
+		"cytobandURL": "https://s3.amazonaws.com/igv.broadinstitute.org/annotations/mm10/cytoBandIdeo.txt.gz",
+		"twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
+		"chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes",
+		"order": 1000000,
+		"chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
+	},
+	"locus": "chrX:103,314,864-103,638,277",
+	"roi": [],
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"name": "Refseq Curated",
+			"format": "refgene",
+			"url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz",
+			"indexed": false,
+			"order": -46,
+			"type": "annotation",
+			"height": 70,
+			"color": "rgb(0, 0, 0)"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/f9clwzxcclpnvmk3opmc3/SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed?rlkey=e4mjjlqevmd4cjonndj2pr928&dl=0",
+			"filename": "SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed",
+			"name": "SNPfile_C57BL_6NJxCAST_EiJ.bed",
+			"order": -45,
+			"format": "bed",
+			"type": "annotation",
+			"height": 30
+		},
+		{
+			"name": "Embryonic_Brain_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": -44,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/zbsn6oqusil3qvsp0eesa/Br_E14-5_RNA_XistBxC_-_XX_1_fwd.bw?rlkey=t8pp1d18ujn86xy52tiqypd7d&dl=0",
+					"filename": "Br_E14-5_RNA_XistBxC_-_XX_1_fwd.bw",
+					"name": "Br_E14-5_RNA_XistBxC_-_XX_1_fwd.bw",
+					"order": -44,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "rgb(0, 0, 0)",
+					"min": -608.2833333333333,
+					"max": 16.8747312484249
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/hn28r5kyryr2netrj01fy/Br_E14-5_RNA_XistBxC_-_XX_1_rev.bw?rlkey=zkf6j3ggejfit0vx9wr2tgjws&dl=0",
+					"filename": "Br_E14-5_RNA_XistBxC_-_XX_1_rev.bw",
+					"name": "Br_E14-5_RNA_XistBxC_-_XX_1_rev.bw",
+					"order": -44,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "rgb(184, 184, 184)",
+					"min": -608.2833333333333,
+					"max": 16.8747312484249
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/pf0d96phtwwzhkmvjdi8h/Br_E14-5_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw?rlkey=b6a5zfsdnrzv6xgysdw1w6azl&dl=0",
+			"filename": "Br_E14-5_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Embryonic_Brain_unstranded_maternal_BL6_Xa",
+			"order": -42,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 506.2840664628623,
+			"autoscaleGroup": "auto-scale-group-1gp3"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/d3fx2c0p9xtv115gxg3nv/Br_E14-5_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw?rlkey=9m149aufkv64m0hr07aorada8&dl=0",
+			"filename": "Br_E14-5_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Embryonic_Brain_unstranded_paternal_CAST_Xi",
+			"order": -41,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 506.2840664628623,
+			"autoscaleGroup": "auto-scale-group-1gp3"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/amkokvt4twoffi2ugurzj/Br_E14.5_XX_AllelomePRO.bed?rlkey=j1fiml6i1y0tanshtre0agpgf&dl=0",
+			"filename": "Br_E14.5_XX_AllelomePRO.bed",
+			"name": "Embryonic_Brain_AllelomePRO.bed",
+			"order": -40,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Young_Brain_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 19,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/4t2di8ib6w9bv5j10no9u/Br_4w_RNA_XistxC_-_XX_1_fwd.bw?rlkey=hqeu5kbepto70uyldlmmhtnov&dl=0",
+					"filename": "Br_4w_RNA_XistxC_-_XX_1_fwd.bw",
+					"name": "Br_4w_RNA_XistxC_-_XX_1_fwd.bw",
+					"order": 22,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -140.07083333333333,
+					"max": 16.38245614035088
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/jhcueiuc41ed7ckc8ruly/Br_4w_RNA_XistxC_-_XX_1_rev.bw?rlkey=3l7774htg3y4cfsbygsnrbsr9&dl=0",
+					"filename": "Br_4w_RNA_XistxC_-_XX_1_rev.bw",
+					"name": "Br_4w_RNA_XistxC_-_XX_1_rev.bw",
+					"order": 23,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "rgb(184, 184, 184)",
+					"min": -140.07083333333333,
+					"max": 16.38245614035088
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/juva5dbj40btbf20fotgk/Br_4w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw?rlkey=ledegsqpzxjdnubvvm0sg9635&dl=0",
+			"filename": "Br_4w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Young_Brain_unstranded_maternal_BL6_Xa",
+			"order": 20,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 103.67083333333333,
+			"autoscaleGroup": "auto-scale-group-oy9i"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/l9wwgqvb15135ll6ju1vp/Br_4w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw?rlkey=jcu4qx38yfi6b7i9gfbqc6ab4&dl=0",
+			"filename": "Br_4w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Young_Brain_unstranded_paternal_CAST_Xi",
+			"order": 21,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 103.67083333333333,
+			"autoscaleGroup": "auto-scale-group-oy9i"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/xsh2iafe3ykcjzwte330m/Br_4w_XX_AllelomePRO.bed?rlkey=juol05hmbnqcse0k8ofx8mzur&dl=0",
+			"filename": "Br_4w_XX_AllelomePRO.bed",
+			"name": "Young_Brain_AllelomePRO.bed",
+			"order": 22,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Adult_Brain_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 23,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/i1emdvjc3usjbyf8lmw1n/Br_9w_RNA_XistxC_-_XX_1_fwd.bw?rlkey=y585nyor2li7p25myg0eb6tnh&dl=0",
+					"filename": "Br_9w_RNA_XistxC_-_XX_1_fwd.bw",
+					"name": "Br_9w_RNA_XistxC_-_XX_1_fwd.bw",
+					"order": 20,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "rgb(0, 0, 0)",
+					"min": -192.36666666666665,
+					"max": 21.77499972568469
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/6c0a9sm7t8kcb4xfnfvxz/Br_9w_RNA_XistxC_-_XX_1_rev.bw?rlkey=x9kxq5cz0hqf6dc6wn84eefyh&dl=0",
+					"filename": "Br_9w_RNA_XistxC_-_XX_1_rev.bw",
+					"name": "Br_9w_RNA_XistxC_-_XX_1_rev.bw",
+					"order": 23,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "rgb(184, 184, 184)",
+					"min": -192.36666666666665,
+					"max": 21.77499972568469
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/5xpkq6e0qjjb7whq7d91g/Br_9w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw?rlkey=jzaesnb7yrhefhm65ypkjq7ie&dl=0",
+			"filename": "Br_9w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Adult_Brain_unstranded_maternal_BL6_Xa",
+			"order": 24,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 149.4521250623338,
+			"autoscaleGroup": "auto-scale-group-a8ol"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/hdlv1hmo026oq5k62fnsm/Br_9w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw?rlkey=wb7xt12epetfzbf0kfn728n3r&dl=0",
+			"filename": "Br_9w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Adult_Brain_unstranded_paternal_CAST_Xi",
+			"order": 25,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 149.4521250623338,
+			"autoscaleGroup": "auto-scale-group-a8ol"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/b2rfypq2io0qobqhll6nu/Br_9w_XX_AllelomePRO.bed?rlkey=xwuh4kaz5ksbv6rikeqbrs6xt&dl=0",
+			"filename": "Br_9w_XX_AllelomePRO.bed",
+			"name": "Adult_Brain_AllelomePRO.bed",
+			"order": 26,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Aged_Brain_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 34,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/dt3ijth28hveegunag1sa/Br_78w_RNA_XistBxC_-_XX_1_fwd.bw?rlkey=thgndai5xstp2e3oy2027umbz&dl=0",
+					"filename": "Br_78w_RNA_XistBxC_-_XX_1_fwd.bw",
+					"name": "Br_78w_RNA_XistBxC_-_XX_1_fwd.bw",
+					"order": 30,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "rgb(0, 0, 0)",
+					"min": -375.8541666666667,
+					"max": 36.90952361576141
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/t5fxphorl6ll20jlc8qho/Br_78w_RNA_XistBxC_-_XX_1_rev.bw?rlkey=l9uxbe9jyqp6upyd0pluf6exe&dl=0",
+					"filename": "Br_78w_RNA_XistBxC_-_XX_1_rev.bw",
+					"name": "Br_78w_RNA_XistBxC_-_XX_1_rev.bw",
+					"order": 33,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "rgb(184, 184, 184)",
+					"min": -375.8541666666667,
+					"max": 36.90952361576141
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/ma6dhwwbx2mpphorymy1z/Br_78w_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw?rlkey=jnmhqmwehp8gd0t8bn0754g66&dl=0",
+			"filename": "Br_78w_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Aged_Brain_unstranded_maternal_BL6_Xa",
+			"order": 35,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 271.3166622776217,
+			"autoscaleGroup": "auto-scale-group-gsdr"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/jcm6kup9u59qzetcgrgym/Br_78w_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw?rlkey=gu2vwhevduri349bejb6345z3&dl=0",
+			"filename": "Br_78w_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Aged_Brain_unstranded_paternal_CAST_Xi",
+			"order": 36,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 271.3166622776217,
+			"autoscaleGroup": "auto-scale-group-gsdr"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/m8pmge32z8pel75yyie4c/Br_78w_XX_AllelomePRO.bed?rlkey=yybsooxk30g5akfsd6oa2to0o&dl=0",
+			"filename": "Br_78w_XX_AllelomePRO.bed",
+			"name": "Aged_Brain_AllelomePRO.bed",
+			"order": 1000032,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		}
+	]
+}

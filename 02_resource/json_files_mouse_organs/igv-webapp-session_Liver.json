@@ -1,0 +1,302 @@
+{
+	"version": "3.2.5",
+	"showSampleNames": false,
+	"reference": {
+		"id": "mm10",
+		"name": "Mouse (GRCm38/mm10)",
+		"fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
+		"indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
+		"cytobandURL": "https://s3.amazonaws.com/igv.broadinstitute.org/annotations/mm10/cytoBandIdeo.txt.gz",
+		"twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
+		"chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes",
+		"order": 1000000,
+		"chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
+	},
+	"locus": "chrX:103,314,864-103,638,277",
+	"roi": [],
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"name": "Refseq Curated",
+			"format": "refgene",
+			"url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz",
+			"indexed": false,
+			"order": 1000000,
+			"type": "annotation",
+			"height": 70,
+			"color": "rgb(0, 0, 0)"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/f9clwzxcclpnvmk3opmc3/SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed?rlkey=e4mjjlqevmd4cjonndj2pr928&dl=0",
+			"filename": "SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed",
+			"name": "SNPfile_C57BL_6NJxCAST_EiJ.bed",
+			"order": 1000017,
+			"format": "bed",
+			"type": "annotation",
+			"height": 30
+		},
+		{
+			"name": "Embryonic_Liver_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000030,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/8dvr31jz0n9h66gr1l8wg/Li_E14-5_RNA_XistBxC_-_XX_1_fwd.bw?rlkey=k5834np9rei2wydaxbr3sfo5a&dl=0",
+					"filename": "Li_E14-5_RNA_XistBxC_-_XX_1_fwd.bw",
+					"name": "Li_E14-5_RNA_XistBxC_-_XX_1_fwd.bw",
+					"order": 20,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -506.5261222079037,
+					"max": 8.5625
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/7jx2xja9yl0xzirzt1sgs/Li_E14-5_RNA_XistBxC_-_XX_1_rev.bw?rlkey=qoxvpvtoxb38utgxwrl0mtm8h&dl=0",
+					"filename": "Li_E14-5_RNA_XistBxC_-_XX_1_rev.bw",
+					"name": "Li_E14-5_RNA_XistBxC_-_XX_1_rev.bw",
+					"order": 21,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -506.5261222079037,
+					"max": 8.5625
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/vjsxrchib49lqbj5evb0p/Li_E14-5_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw?rlkey=n5umtfw36iv9ma2beg34fqo0x&dl=0",
+			"filename": "Li_E14-5_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Embryonic_Liver_unstranded_maternal_BL6_Xa",
+			"order": 1000043,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 258.515625,
+			"autoscaleGroup": "auto-scale-group-3pht"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/kdebrqq55dejrua0gymqh/Li_E14-5_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw?rlkey=s0iitsv7dv1ubbq6zkkpzttnl&dl=0",
+			"filename": "Li_E14-5_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Embryonic_Liver_unstranded_paternal_CAST_Xi",
+			"order": 1000056,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 258.515625,
+			"autoscaleGroup": "auto-scale-group-3pht"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/8v4c0mekr2pyl62lntla6/Li_E14.5_XX_AllelomePRO.bed?rlkey=8d45sf1fiqco6cshscqqkpzs8&dl=0",
+			"filename": "Li_E14.5_XX_AllelomePRO.bed",
+			"name": "Embryonic_Liver_AllelomePRO.bed",
+			"order": 1000069,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Young_Liver_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000070,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/j98tdebbha11saavhvyq3/Li_4w_RNA_XistxC_-_XX_1_fwd.bw?rlkey=mi7z2hqka5g0ah9tw9ej7q06g&dl=0",
+					"filename": "Li_4w_RNA_XistxC_-_XX_1_fwd.bw",
+					"name": "Li_4w_RNA_XistxC_-_XX_1_fwd.bw",
+					"order": 5,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -77.85211148648649,
+					"max": 3.001303935514462
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/1b7bhu8iv43b95m7r7bvn/Li_4w_RNA_XistxC_-_XX_1_rev.bw?rlkey=5fyv2vodil9to776mvhkakag5&dl=0",
+					"filename": "Li_4w_RNA_XistxC_-_XX_1_rev.bw",
+					"name": "Li_4w_RNA_XistxC_-_XX_1_rev.bw",
+					"order": 6,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -77.85211148648649,
+					"max": 3.001303935514462
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/zt7g2xkx6k9ouh5alrk6u/Li_4w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw?rlkey=ykxtvhqjgxmq4ooii79fztlfu&dl=0",
+			"filename": "Li_4w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Young_Liver_unstranded_maternal_BL6_Xa",
+			"order": 1000071,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 37.92412833280341,
+			"autoscaleGroup": "auto-scale-group-cmzg"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/rhyrvqsfpddwrxcd1wd4t/Li_4w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw?rlkey=mmlst5xbq7shqfap6keopqfte&dl=0",
+			"filename": "Li_4w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Young_Liver_unstranded_paternal_CAST_Xi",
+			"order": 1000072,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 37.92412833280341,
+			"autoscaleGroup": "auto-scale-group-cmzg"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/jcc80ibwn52pdb0tbskek/Li_4w_XX_AllelomePRO.bed?rlkey=84dhazuir2pveel4lltc4lpg8&dl=0",
+			"filename": "Li_4w_XX_AllelomePRO.bed",
+			"name": "Young_Liver_AllelomePRO.bed",
+			"order": 1000073,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Adult_Liver_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000074,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/g9b2a72cy0xx1uo6giqo0/Li_9w_RNA_XistxC_-_XX_1_fwd.bw?rlkey=bzkygp9zt7jo6ubyi4vg19qm5&dl=0",
+					"filename": "Li_9w_RNA_XistxC_-_XX_1_fwd.bw",
+					"name": "Li_9w_RNA_XistxC_-_XX_1_fwd.bw",
+					"order": 10,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -178.6291666666667,
+					"max": 12.975
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/2ud3709o60oubbctfapsq/Li_9w_RNA_XistxC_-_XX_1_rev.bw?rlkey=5d7i96vkftoij8qh646y5g6kv&dl=0",
+					"filename": "Li_9w_RNA_XistxC_-_XX_1_rev.bw",
+					"name": "Li_9w_RNA_XistxC_-_XX_1_rev.bw",
+					"order": 11,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -178.6291666666667,
+					"max": 12.975
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/8ylq9kf55jy8g0hpqp37h/Li_9w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw?rlkey=1g1jto0jbd23sclr1fuc8xpop&dl=0",
+			"filename": "Li_9w_RNA_XistxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Adult_Liver_unstranded_maternal_BL6_Xa",
+			"order": 1000075,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 115.3875,
+			"autoscaleGroup": "auto-scale-group-ocpj"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/n7rvpo0otyn8sm0zls6ti/Li_9w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw?rlkey=pnplaob6dq4dny0eikzuu5qin&dl=0",
+			"filename": "Li_9w_RNA_XistxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Adult_Liver_unstranded_paternal_CAST_Xi",
+			"order": 1000076,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 115.3875,
+			"autoscaleGroup": "auto-scale-group-ocpj"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/ugon2d9ly6juzlbisj495/Li_9w_XX_AllelomePRO.bed?rlkey=w69hok042p1qgq96ogbc5ngov&dl=0",
+			"filename": "Li_9w_XX_AllelomePRO.bed",
+			"name": "Adult_Liver_AllelomePRO.bed",
+			"order": 1000077,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Aged_Liver_stranded",
+			"type": "merged",
+			"autoscale": true,
+			"alpha": 1,
+			"height": 50,
+			"order": 1000078,
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/n5f68241uqyxxae3kcn5t/Li_78w_RNA_XistBxC_-_XX_1_fwd.bw?rlkey=dcmq60mjwaa7k4ltqshs27sz7&dl=0",
+					"filename": "Li_78w_RNA_XistBxC_-_XX_1_fwd.bw",
+					"name": "Li_78w_RNA_XistBxC_-_XX_1_fwd.bw",
+					"order": 15,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#000000",
+					"min": -82.70833333333333,
+					"max": 4.24212962962963
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/yzgxyr6b6hv283cqad9ur/Li_78w_RNA_XistBxC_-_XX_1_rev.bw?rlkey=yiuxpdtb2qstfnp16e4jn01u6&dl=0",
+					"filename": "Li_78w_RNA_XistBxC_-_XX_1_rev.bw",
+					"name": "Li_78w_RNA_XistBxC_-_XX_1_rev.bw",
+					"order": 16,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": -82.70833333333333,
+					"max": 4.24212962962963
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/lo2aife4hxosw3fyzhxzi/Li_78w_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw?rlkey=j7fmxs3jrmzp7dlqcdf02pds5&dl=0",
+			"filename": "Li_78w_RNA_XistBxC_-_XX_1.genome1_sort.bam.bw",
+			"name": "Aged_Liver_unstranded_maternal_BL6_Xa",
+			"order": 1000079,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#891100",
+			"min": 0,
+			"max": 57.57916666666667,
+			"autoscaleGroup": "auto-scale-group-r0lo"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/kddtd08zp6u6cnk1h10yr/Li_78w_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw?rlkey=j8zo9zgu1pl7gx3ubnrhr0j3q&dl=0",
+			"filename": "Li_78w_RNA_XistBxC_-_XX_1.genome2_sort.bam.bw",
+			"name": "Aged_Liver_unstranded_paternal_CAST_Xi",
+			"order": 1000080,
+			"format": "bigwig",
+			"type": "wig",
+			"color": "#001888",
+			"min": 0,
+			"max": 57.57916666666667,
+			"autoscaleGroup": "auto-scale-group-r0lo"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/u6kdgdl744f8hiqtxqmrn/Li_78w_XX_AllelomePRO.bed?rlkey=7i5z7yx31ioxuz87vwswniz2o&dl=0",
+			"filename": "Li_78w_XX_AllelomePRO.bed",
+			"name": "Aged_Liver_AllelomePRO.bed",
+			"order": 1000081,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		}
+	]
+}
