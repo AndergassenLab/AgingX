@@ -7,26 +7,27 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 
 | Organ      |       |      |      | 
 | ------------- | ------------- | ------------- | ------------- |
-|[Brain](https://tinyurl.com/dx76b8fp) | [Kidney](https://tinyurl.com/yccv8vy3) |[Lung](https://tinyurl.com/2pcpat2s) |[Spleen](https://tinyurl.com/3mrm88jy)|
-|[Heart](https://tinyurl.com/3ntdccmr)|[Liver](https://tinyurl.com/2nbrzkbp) |[Muscle](https://tinyurl.com/3w94eeu5)| |
+|[Brain](https://tinyurl.com/344jfbz5) | [Kidney](https://tinyurl.com/ytsj3mmh) |[Lung](https://tinyurl.com/3msc5ky6) |[Spleen](https://tinyurl.com/587pubp6)|
+|[Heart](https://tinyurl.com/3n3phek2)|[Liver](https://tinyurl.com/5x3hp3eu) |[Muscle](https://tinyurl.com/2y48hmwt)| |
 
 
 ## 2. Example: Kidney
 
-<img width="1922" alt="Image" src="https://github.com/user-attachments/assets/1ef9e341-e1ae-47ba-acc4-c24125c351a5" /><br/>
+<img width="1051" alt="Image" src="https://github.com/user-attachments/assets/d078f814-5499-4a7d-b904-5bd4c0e2de5f" /><br/>
 
 
 | Track      | Description   |
 | ------------- | ------------- |
 | Refseq Curated | RefSeq gene annotation |
-| Embryonic_Kidney_unstranded_total| Unstranded non-allele-specific RNA-seq track of one representative example replicate out of three |
-| Embryonic_Kidney_fwd_allele-specific | Forward strand RNA-seq track obtained of a representative example replicate. Allele-specific reads are shown for the maternal BL6 allele (active X chromosome) in black and the paternal CAST allele (inactive X chromosome) in orange |
-| Embryonic_Kidney_rev_allele-specific | Reverse strand RNA-seq track obtained of a representative example replicate. Allele-specific reads are shown for the maternal BL6 allele (active X chromosome) in black and the paternal CAST allele (inactive X chromosome) in orange |
-| Embryonic_Kidney_AllelomePRO.bed | Alleleome.PRO2 bed output summarizing three replicates and naming the locus, the min. total number of SNP-overlapping reads within the gene body and the median allelic ratio. The color denotes the allelic bias (for X-linked genes: dark red: maternal (AR > 0.9), green: biallelic (0.9 >= AR > 0.15), blue: paternal (AR <= 0.15); for autosomal genes: dark red: maternal (AR >= 0.85), light red: towards maternal (0.85 > AR >= 0.65), green: biallelic (0.65 > AR > 0.35), light blue: towards paternal (0.35 >= AR > 0.15), blue: paternal (AR <= 0.15)) |<br/>
+| SNPfile_C57BL_6NJxCAST_EiJ.bed | Single nucleotide polymorphisms between C57BL_6NJ (BL6) and CAST_EiJ (CAST) mouse strains used to allele-specific read assignment |
+| Embryonic_Kidney_stranded| Stranded non-allele-specific RNA-seq track of one representative example replicate. The color and direction denote the strand information: forward strand: black upwards, reverse strand: grey downwards |
+| Embryonic_Kidney_unstranded_maternal_BL6_Xa | Maternal BL6 unstranded RNA-seq track shown in red obtained of a representative example replicate. X-linked reads derive from the maternal BL6 active X chromosome. |
+| Embryonic_Kidney_unstranded_paternal_CAST_Xi | Paternal CAST unstranded RNA-seq track shown in blue obtained of a representative example replicate. X-linked reads derive from the paternal CAST inactive X chromosome. |
+| Embryonic_Kidney_AllelomePRO.bed | Alleleome.PRO2 bed output summarizing three replicates, naming the locus, the min. total number of SNP-overlapping reads, and the median allelic ratio. The color denotes the allelic bias (for X-linked genes: dark red: maternal (AR > 0.9), green: biallelic (0.9 >= AR > 0.15), blue: paternal (AR <= 0.15); for autosomal genes: dark red: maternal (AR >= 0.85), light red: towards maternal (0.85 > AR >= 0.65), green: biallelic (0.65 > AR > 0.35), light blue: towards paternal (0.35 >= AR > 0.15), blue: paternal (AR <= 0.15)) |<br/>
   
   Sequencing tracks are displayed for the following time points: Embryonic (E14.5), Young (4 weeks of age), Adult (9 weeks of age), Aged (1.5 years of age)
 
-  X-linked genes that escape X chromosome inactivation are characterized by an allelic ratio ≤ 0.9. Unlike silenced X-linked genes, which exhibit only expression from the maternal active X chromosome (black RNA-seq peaks), escape genes also show expression from the paternal inactive X chromosome (orange RNA-seq peaks).
+  X-linked genes that escape X chromosome inactivation are characterized by an allelic ratio ≤ 0.9. Unlike silenced X-linked genes, which exhibit only expression from the maternal active X chromosome (red RNA-seq peaks), escape genes also show expression from the paternal inactive X chromosome (blue RNA-seq peaks).
 
 
 [^1]:*James T. Robinson, Helga Thorvaldsdóttir, Wendy Winckler, Mitchell Guttman, Eric S. Lander, Gad Getz, Jill P. Mesirov. Integrative Genomics Viewer. Nature Biotechnology 29, 24–26 (2011). A public access version is also available: PMC3346182.*.
