@@ -5,12 +5,12 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 
 ## 1. IGV browser links
 
-| RNA-seq allele-specific landscape      |       |      |      | 
+| RNA-seq |       |      |      | 
 | ------------- | ------------- | ------------- | ------------- |
 |[Brain](https://tinyurl.com/344jfbz5) | [Kidney](https://tinyurl.com/ytsj3mmh) |[Lung](https://tinyurl.com/3msc5ky6) |[Spleen](https://tinyurl.com/587pubp6)|
 |[Heart](https://tinyurl.com/3n3phek2)|[Liver](https://tinyurl.com/5x3hp3eu) |[Muscle](https://tinyurl.com/2y48hmwt)| |
 
-| ATAC-seq allele-specific landscape      |       | 
+| ATAC-seq |       | 
 | ------------- | ------------- | 
 |[Kidney](https://tinyurl.com/44tb3d57) | [Liver](https://tinyurl.com/39jf8fvk) |
 
