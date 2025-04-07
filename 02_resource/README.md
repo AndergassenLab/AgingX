@@ -33,7 +33,7 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 ## 2. ATAC Example
 
 <img width="1719" alt="Image" src="https://github.com/user-attachments/assets/a4d3992e-d286-458e-a7dd-308e34351afc" /><br/>
-<img width="238" alt="Image" src="https://github.com/user-attachments/assets/dae02a62-3e3e-4d72-829d-c1b4aca68282" />
+
 
 | Track      | Description   |
 | ------------- | ------------- |
