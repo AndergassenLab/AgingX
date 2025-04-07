@@ -1,0 +1,308 @@
+{
+	"version": "3.2.5",
+	"showSampleNames": false,
+	"reference": {
+		"id": "mm10",
+		"name": "Mouse (GRCm38/mm10)",
+		"fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
+		"indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
+		"cytobandURL": "https://s3.amazonaws.com/igv.broadinstitute.org/annotations/mm10/cytoBandIdeo.txt.gz",
+		"twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
+		"chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes",
+		"order": 1000000,
+		"chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
+	},
+	"locus": "chrX:10,217,319-10,323,615",
+	"roi": [],
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"name": "Refseq Curated",
+			"format": "refgene",
+			"url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz",
+			"indexed": false,
+			"order": 14,
+			"type": "annotation",
+			"height": 70,
+			"color": "rgb(0, 0, 0)"
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/f9clwzxcclpnvmk3opmc3/SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed?rlkey=e4mjjlqevmd4cjonndj2pr928&dl=0",
+			"filename": "SNPfile_C57BL_6NJxCAST_EiJ_sorted.bed",
+			"name": "SNPfile_C57BL_6NJxCAST_EiJ.bed",
+			"order": 15,
+			"format": "bed",
+			"type": "annotation",
+			"height": 30
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/kmdhxqrugin5hrpvg8lrp/20220307_cCREs.bed?rlkey=hubt9462rvnfrvxtho6vtjbvs&dl=0",
+			"filename": "20220307_cCREs.bed",
+			"name": "cCREs.bed",
+			"order": 16,
+			"format": "bed",
+			"type": "annotation"
+		},
+		{
+			"name": "Adult_Liver_ATAC_total",
+			"type": "merged",
+			"autoscale": false,
+			"alpha": 0.705,
+			"height": 50,
+			"order": 999975,
+			"min": 0,
+			"max": 48.275,
+			"autoscaleGroup": "auto-scale-group-at5s",
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/0fkhbqrssw3cuxkjgkzue/Li_9w_ATAC_XistBxC_-_XX_2_combined_S8_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw?rlkey=vgiwiw2fduxkqgyhdxfm8js7n&dl=0",
+					"filename": "Li_9w_ATAC_XistBxC_-_XX_2_combined_S8_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw",
+					"name": "Li_9w_ATAC_XistBxC_-_XX_2_combined_S8_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw",
+					"order": 999975,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": 0,
+					"max": 48.275,
+					"autoscaleGroup": "auto-scale-group-at5s"
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/lg9990qzpe070l5qq6819/Li_9w_ATAC_XistBxC_-_XX_1_combined_S1_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw?rlkey=seceuy6w8b33rl7cymnpflnti&dl=0",
+					"filename": "Li_9w_ATAC_XistBxC_-_XX_1_combined_S1_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw",
+					"name": "Li_9w_ATAC_XistBxC_-_XX_1_combined_S1_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw",
+					"order": 999976,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": 0,
+					"max": 48.275,
+					"autoscaleGroup": "auto-scale-group-at5s"
+				}
+			]
+		},
+		{
+			"name": "Adult_Liver_ATAC_maternal_BL6_Xa",
+			"type": "merged",
+			"autoscale": false,
+			"alpha": 0.7,
+			"height": 50,
+			"order": 999977,
+			"min": 0,
+			"max": 30.9625,
+			"autoscaleGroup": "auto-scale-group-qmc7",
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/msbgmyn7p420hpxrp9wl2/Li_9w_ATAC_XistBxC_-_XX_1_combined_S1_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw?rlkey=1vt0wfgiqgv8h8murxvn7fki8&dl=0",
+					"filename": "Li_9w_ATAC_XistBxC_-_XX_1_combined_S1_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw",
+					"name": "Li_9w_ATAC_XistBxC_-_XX_1_combined_S1_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw",
+					"order": 999977,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#891100",
+					"min": 0,
+					"max": 30.9625,
+					"autoscaleGroup": "auto-scale-group-qmc7"
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/01vcapwo53f2gloe14s0m/Li_9w_ATAC_XistBxC_-_XX_2_combined_S8_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw?rlkey=5ymjuq2sxtf44iap4xf7deooi&dl=0",
+					"filename": "Li_9w_ATAC_XistBxC_-_XX_2_combined_S8_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw",
+					"name": "Li_9w_ATAC_XistBxC_-_XX_2_combined_S8_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw",
+					"order": 999978,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#891100",
+					"min": 0,
+					"max": 30.9625,
+					"autoscaleGroup": "auto-scale-group-qmc7"
+				}
+			]
+		},
+		{
+			"name": "Adult_Liver_ATAC_paternal_CAST_Xi",
+			"type": "merged",
+			"autoscale": false,
+			"alpha": 0.699,
+			"height": 50,
+			"order": 999979,
+			"min": 0,
+			"max": 30.9625,
+			"autoscaleGroup": "auto-scale-group-qmc7",
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/u71uh51t6pnqlw7vdupow/Li_9w_ATAC_XistBxC_-_XX_2_combined_S8_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw?rlkey=74akind957vz900rsts3sjg3l&dl=0",
+					"filename": "Li_9w_ATAC_XistBxC_-_XX_2_combined_S8_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw",
+					"name": "Li_9w_ATAC_XistBxC_-_XX_2_combined_S8_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw",
+					"order": 999979,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#001888",
+					"min": 0,
+					"max": 30.9625,
+					"autoscaleGroup": "auto-scale-group-qmc7"
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/294sb1oftqxjt9il5quja/Li_9w_ATAC_XistBxC_-_XX_1_combined_S1_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw?rlkey=7rt9hjiudaf6eqvkh2d2sncs3&dl=0",
+					"filename": "Li_9w_ATAC_XistBxC_-_XX_1_combined_S1_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw",
+					"name": "Li_9w_ATAC_XistBxC_-_XX_1_combined_S1_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw",
+					"order": 999980,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#001888",
+					"min": 0,
+					"max": 30.9625,
+					"autoscaleGroup": "auto-scale-group-qmc7"
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/k10p25esp5w8wwgsm1639/Li_9w_ATAC_AllelomePRO.bed?rlkey=loykfg9bvq6fnd5gocn5jihh1&dl=0",
+			"filename": "Li_9w_ATAC_AllelomePRO.bed",
+			"name": "Li_9w_ATAC_AllelomePRO.bed",
+			"order": 999981,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/ugon2d9ly6juzlbisj495/Li_9w_XX_AllelomePRO.bed?rlkey=w69hok042p1qgq96ogbc5ngov&dl=0",
+			"filename": "Li_9w_XX_AllelomePRO.bed",
+			"name": "Adult_Liver_RNA_AllelomePRO.bed",
+			"order": 999982,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"name": "Aged_Liver_ATAC_total",
+			"type": "merged",
+			"autoscale": false,
+			"alpha": 0.703,
+			"height": 50,
+			"order": 999983,
+			"min": 0,
+			"max": 74.52499999999999,
+			"autoscaleGroup": "auto-scale-group-u8je",
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/tm3qadugx4zxa0tmeh621/Li_78w_ATAC_XistBxC_-_XX_1_combined_S15_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw?rlkey=fbhm25xys9h78h68upb99fehj&dl=0",
+					"filename": "Li_78w_ATAC_XistBxC_-_XX_1_combined_S15_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw",
+					"name": "Li_78w_ATAC_XistBxC_-_XX_1_combined_S15_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw",
+					"order": 999983,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": 0,
+					"max": 74.52499999999999,
+					"autoscaleGroup": "auto-scale-group-u8je"
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/hgpwydyevm7sn5nlbo0ar/Li_78w_ATAC_XistBxC_-_XX_2_combined_S22_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw?rlkey=m43qk9762lkodx5q92t29aok2&dl=0",
+					"filename": "Li_78w_ATAC_XistBxC_-_XX_2_combined_S22_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw",
+					"name": "Li_78w_ATAC_XistBxC_-_XX_2_combined_S22_L002_.rmChrM.rmAF.rmBl.rmDup.bam.bw",
+					"order": 999984,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#b8b8b8",
+					"min": 0,
+					"max": 74.52499999999999,
+					"autoscaleGroup": "auto-scale-group-u8je"
+				}
+			]
+		},
+		{
+			"name": "Aged_Liver_ATAC_maternal_BL6_Xa",
+			"type": "merged",
+			"autoscale": false,
+			"alpha": 0.699,
+			"height": 50,
+			"order": 999985,
+			"min": 0,
+			"max": 33.9625,
+			"autoscaleGroup": "auto-scale-group-ntjh",
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/9otvunvvw3t984frkq3te/Li_78w_ATAC_XistBxC_-_XX_1_combined_S15_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw?rlkey=hgrvjahtach5tmjbpoenlz2jk&dl=0",
+					"filename": "Li_78w_ATAC_XistBxC_-_XX_1_combined_S15_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw",
+					"name": "Li_78w_ATAC_XistBxC_-_XX_1_combined_S15_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw",
+					"order": 999985,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#891100",
+					"min": 0,
+					"max": 33.9625,
+					"autoscaleGroup": "auto-scale-group-ntjh"
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/gzy9jecu3isxtsly7dijp/Li_78w_ATAC_XistBxC_-_XX_2_combined_S22_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw?rlkey=8y2h00n4d8y7w3ybxwgas9hs3&dl=0",
+					"filename": "Li_78w_ATAC_XistBxC_-_XX_2_combined_S22_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw",
+					"name": "Li_78w_ATAC_XistBxC_-_XX_2_combined_S22_L002_.rmChrM.rmAF.rmBl.rmDup.genome1_sort.bam.bw",
+					"order": 999986,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#891100",
+					"min": 0,
+					"max": 33.9625,
+					"autoscaleGroup": "auto-scale-group-ntjh"
+				}
+			]
+		},
+		{
+			"name": "Aged_Liver_ATAC_paternal_CAST_Xi",
+			"type": "merged",
+			"autoscale": false,
+			"alpha": 0.697,
+			"height": 50,
+			"order": 999987,
+			"min": 0,
+			"max": 33.9625,
+			"autoscaleGroup": "auto-scale-group-ntjh",
+			"tracks": [
+				{
+					"url": "https://www.dropbox.com/scl/fi/r29y4dyjj005qzh1c5i4v/Li_78w_ATAC_XistBxC_-_XX_2_combined_S22_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw?rlkey=9dn85rrd9kt90mbt7pti3ffvq&dl=0",
+					"filename": "Li_78w_ATAC_XistBxC_-_XX_2_combined_S22_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw",
+					"name": "Li_78w_ATAC_XistBxC_-_XX_2_combined_S22_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw",
+					"order": 999987,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#001888",
+					"min": 0,
+					"max": 33.9625,
+					"autoscaleGroup": "auto-scale-group-ntjh"
+				},
+				{
+					"url": "https://www.dropbox.com/scl/fi/3eavxu8opvnvduarjjh92/Li_78w_ATAC_XistBxC_-_XX_1_combined_S15_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw?rlkey=ceedg03mztxic4zykntkueym2&dl=0",
+					"filename": "Li_78w_ATAC_XistBxC_-_XX_1_combined_S15_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw",
+					"name": "Li_78w_ATAC_XistBxC_-_XX_1_combined_S15_L002_.rmChrM.rmAF.rmBl.rmDup.genome2_sort.bam.bw",
+					"order": 999988,
+					"format": "bigwig",
+					"type": "wig",
+					"color": "#001888",
+					"min": 0,
+					"max": 33.9625,
+					"autoscaleGroup": "auto-scale-group-ntjh"
+				}
+			]
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/g8gyw83kyi51ehkiv0h00/Li_78w_ATAC_AllelomePRO.bed?rlkey=svduelkr99nzwca0p495ndjhh&dl=0",
+			"filename": "Li_78w_ATAC_AllelomePRO.bed",
+			"name": "Li_78w_ATAC_AllelomePRO.bed",
+			"order": 999989,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		},
+		{
+			"url": "https://www.dropbox.com/scl/fi/u6kdgdl744f8hiqtxqmrn/Li_78w_XX_AllelomePRO.bed?rlkey=7i5z7yx31ioxuz87vwswniz2o&dl=0",
+			"filename": "Li_78w_XX_AllelomePRO.bed",
+			"name": "Aged_Liver_RNA_AllelomePRO.bed",
+			"order": 999990,
+			"format": "bed",
+			"type": "annotation",
+			"height": 70
+		}
+	]
+}
