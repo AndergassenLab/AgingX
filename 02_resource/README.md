@@ -5,10 +5,15 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 
 ## 1. IGV browser links
 
-| Organ      |       |      |      | 
+| RNA-seq allele-specific landscape      |       |      |      | 
 | ------------- | ------------- | ------------- | ------------- |
 |[Brain](https://tinyurl.com/344jfbz5) | [Kidney](https://tinyurl.com/ytsj3mmh) |[Lung](https://tinyurl.com/3msc5ky6) |[Spleen](https://tinyurl.com/587pubp6)|
 |[Heart](https://tinyurl.com/3n3phek2)|[Liver](https://tinyurl.com/5x3hp3eu) |[Muscle](https://tinyurl.com/2y48hmwt)| |
+
+| ATAC-seq allele-specific landscape      |       | 
+| ------------- | ------------- | 
+|[Kidney](https://tinyurl.com/44tb3d57) | [Liver](https://tinyurl.com/39jf8fvk) |
+
 
 
 ## 2. RNA Example
@@ -30,7 +35,7 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
   X-linked genes that escape X chromosome inactivation are characterized by an allelic ratio ≤ 0.9. Unlike silenced X-linked genes, which exhibit only expression from the maternal active X chromosome (red RNA-seq peaks), escape genes also show expression from the paternal inactive X chromosome (blue RNA-seq peaks).
 
 
-## 2. ATAC Example
+## 3. ATAC Example
 
 <img width="1719" alt="Image" src="https://github.com/user-attachments/assets/a4d3992e-d286-458e-a7dd-308e34351afc" /><br/>
 
