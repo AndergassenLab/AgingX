@@ -11,7 +11,7 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 |[Heart](https://tinyurl.com/3n3phek2)|[Liver](https://tinyurl.com/5x3hp3eu) |[Muscle](https://tinyurl.com/2y48hmwt)| |
 
 
-## 2. Example: Kidney
+## 2. RNA Example
 
 <img width="1051" alt="Image" src="https://github.com/user-attachments/assets/d078f814-5499-4a7d-b904-5bd4c0e2de5f" /><br/>
 
@@ -19,7 +19,7 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 | Track      | Description   |
 | ------------- | ------------- |
 | Refseq Curated | RefSeq gene annotation |
-| SNPfile_C57BL_6NJxCAST_EiJ.bed | Single nucleotide polymorphisms between C57BL_6NJ (BL6) and CAST_EiJ (CAST) mouse strains used to allele-specific read assignment |
+| SNPfile_C57BL_6NJxCAST_EiJ.bed | Single nucleotide polymorphisms between C57BL_6NJ (BL6) and CAST_EiJ (CAST) mouse strains used for allele-specific read assignment |
 | Embryonic_Kidney_stranded| Stranded non-allele-specific RNA-seq track of one representative example replicate. The color and direction denote the strand information: forward strand: black upwards, reverse strand: grey downwards |
 | Embryonic_Kidney_unstranded_maternal_BL6_Xa | Maternal BL6 unstranded RNA-seq track shown in red obtained of a representative example replicate. X-linked reads derive from the maternal BL6 active X chromosome. |
 | Embryonic_Kidney_unstranded_paternal_CAST_Xi | Paternal CAST unstranded RNA-seq track shown in blue obtained of a representative example replicate. X-linked reads derive from the paternal CAST inactive X chromosome. |
@@ -28,6 +28,23 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
   Sequencing tracks are displayed for the following time points: Embryonic (E14.5), Young (4 weeks of age), Adult (9 weeks of age), Aged (1.5 years of age)
 
   X-linked genes that escape X chromosome inactivation are characterized by an allelic ratio ≤ 0.9. Unlike silenced X-linked genes, which exhibit only expression from the maternal active X chromosome (red RNA-seq peaks), escape genes also show expression from the paternal inactive X chromosome (blue RNA-seq peaks).
+
+
+## 2. ATAC Example
+
+<img width="1719" alt="Image" src="https://github.com/user-attachments/assets/a4d3992e-d286-458e-a7dd-308e34351afc" /><br/>
+<img width="238" alt="Image" src="https://github.com/user-attachments/assets/dae02a62-3e3e-4d72-829d-c1b4aca68282" />
+
+| Track      | Description   |
+| ------------- | ------------- |
+| Refseq Curated | RefSeq gene annotation |
+| SNPfile_C57BL_6NJxCAST_EiJ.bed | Single nucleotide polymorphisms between C57BL_6NJ (BL6) and CAST_EiJ (CAST) mouse strains used for allele-specific read assignment |
+| cCREs.bed | ENCODE Candidate Cis-Regulatory Elements (cCREs) are shown as follows: promoter (red), proximal enhancer (orange), distal enhancer (yellow), and CTCF (blue) |
+| Adult_Kidney_ATAC_total| Overlayed total ATAC-seq peaks retrieved from two replicates |
+| Adult_Kidney_ATAC_maternal_BL6_Xa | Overlayed maternal BL6 ATAC-seq peaks retrieved from two replicates. X-linked reads derive from the maternal BL6 active X chromosome. |
+| Adult_Kidney_ATAC_paternal_CAST_Xi |  Overlayed paternal CAST ATAC-seq peaks retrieved from two replicates. X-linked reads derive from the paternal CAST inactive X chromosome. |
+| Adult_Kidney_ATAC_AllelomePRO.bed |  ATAC Alleleome.PRO2 bed output of two replicates, naming the locus, the total number of SNP-overlapping reads, and the allelic ratio. The color denotes the allelic bias: <img width="238" alt="Image" src="https://github.com/user-attachments/assets/dae02a62-3e3e-4d72-829d-c1b4aca68282" /> |
+| Adult_Kidney_RNA_AllelomePRO.bed | RNA Alleleome.PRO2 bed output summarizing three replicates, naming the locus, the min. total number of SNP-overlapping reads, and the median allelic ratio. The color denotes the allelic bias (for X-linked genes: dark red: maternal (AR > 0.9), green: biallelic (0.9 >= AR > 0.15), blue: paternal (AR <= 0.15); for autosomal genes: dark red: maternal (AR >= 0.85), light red: towards maternal (0.85 > AR >= 0.65), green: biallelic (0.65 > AR > 0.35), light blue: towards paternal (0.35 >= AR > 0.15), blue: paternal (AR <= 0.15)) |<br/>
 
 
 [^1]:*James T. Robinson, Helga Thorvaldsdóttir, Wendy Winckler, Mitchell Guttman, Eric S. Lander, Gad Getz, Jill P. Mesirov. Integrative Genomics Viewer. Nature Biotechnology 29, 24–26 (2011). A public access version is also available: PMC3346182.*.
