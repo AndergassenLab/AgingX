@@ -18,7 +18,7 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 
 ## 2. RNA Example
 
-<img width="700" alt="Image" src="https://github.com/user-attachments/assets/d078f814-5499-4a7d-b904-5bd4c0e2de5f" /><br/>
+<img width="900" alt="Image" src="https://github.com/user-attachments/assets/d078f814-5499-4a7d-b904-5bd4c0e2de5f" /><br/>
 
 
 | Track      | Description   |
@@ -37,7 +37,7 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 
 ## 3. ATAC Example
 
-<img width="1719" alt="Image" src="https://github.com/user-attachments/assets/a4d3992e-d286-458e-a7dd-308e34351afc" /><br/>
+<img width="900" alt="Image" src="https://github.com/user-attachments/assets/a4d3992e-d286-458e-a7dd-308e34351afc" /><br/>
 
 
 | Track      | Description   |
