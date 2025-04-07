@@ -51,5 +51,7 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 | Adult_Kidney_ATAC_AllelomePRO.bed |  Alleleome.PRO2 bed output for MACS2-called broad ATAC peaks of two replicates, naming the peak, the total number of SNP-overlapping reads, and the allelic ratio. The color denotes the allelic bias: <img width="238" alt="Image" src="https://github.com/user-attachments/assets/dae02a62-3e3e-4d72-829d-c1b4aca68282" /> |
 | Adult_Kidney_RNA_AllelomePRO.bed | RNA Alleleome.PRO2 bed output summarizing three replicates, naming the gene, the min. total number of SNP-overlapping reads, and the median allelic ratio. The color denotes the allelic bias (for X-linked genes: dark red: maternal (AR > 0.9), green: biallelic (0.9 >= AR > 0.15), blue: paternal (AR <= 0.15); for autosomal genes: dark red: maternal (AR >= 0.85), light red: towards maternal (0.85 > AR >= 0.65), green: biallelic (0.65 > AR > 0.35), light blue: towards paternal (0.35 >= AR > 0.15), blue: paternal (AR <= 0.15)) |<br/>
 
+  Sequencing tracks are displayed for the following time points: Adult (9 weeks of age), Aged (1.5 years of age)
+  
 
 [^1]:*James T. Robinson, Helga Thorvaldsdóttir, Wendy Winckler, Mitchell Guttman, Eric S. Lander, Gad Getz, Jill P. Mesirov. Integrative Genomics Viewer. Nature Biotechnology 29, 24–26 (2011). A public access version is also available: PMC3346182.*.
