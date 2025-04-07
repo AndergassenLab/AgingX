@@ -18,7 +18,7 @@ The allele-specific landscape will be displayed via the Integrative Genomics Vie
 
 ## 2. RNA Example
 
-<img width="1051" alt="Image" src="https://github.com/user-attachments/assets/d078f814-5499-4a7d-b904-5bd4c0e2de5f" /><br/>
+<img width="700" alt="Image" src="https://github.com/user-attachments/assets/d078f814-5499-4a7d-b904-5bd4c0e2de5f" /><br/>
 
 
 | Track      | Description   |
